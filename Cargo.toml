@@ -1,0 +1,11 @@
+[package]
+name = "sweets-deployer"
+version = "0.1.0"
+authors = ["sunya9 <mugen.xyz@gmail.com>"]
+
+[dependencies]
+iron = "*"
+params="^0.6"
+time = "0.1"
+rust-crypto = "^0.2"
+rusqlite = { version = "0.11.0", features = ["bundled"] }
